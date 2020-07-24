@@ -1,0 +1,36 @@
+.Input {
+    background: #FFFFFF;
+    border: 1px solid #D0D2D6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+    transition: ease 0.15s;
+}
+
+.Input:focus {
+    border: 1px solid #186AD6;
+}
+
+.Input-label {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.Input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Input-error {
+    border: 1px solid red;
+}
+
+.Input-label-error {
+    @extend .Input-label;
+    color: red;
+    font-size: 14px;
+}

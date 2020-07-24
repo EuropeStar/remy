@@ -1,0 +1,11 @@
+@import 'fonts';
+@import 'colors';
+
+body {
+    font-family: "Roboto";
+}
+
+.App {
+    background-color: $color_bg;
+    min-height: 100vh;
+}

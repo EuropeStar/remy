@@ -1,0 +1,11 @@
+.Card {
+    background-color: #FFF;
+    padding: 48px 56px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 480px) {
+    .Card {
+        padding: 32px 32px;
+    }
+}

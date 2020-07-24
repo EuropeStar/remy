@@ -1,0 +1,18 @@
+@import '../../styles/colors';
+
+.Button {
+    font-family: "Roboto";
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.Button-primary {
+    background-color: $color_primary;
+    color: #ffffff;
+}
